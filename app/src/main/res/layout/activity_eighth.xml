@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo7"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/govia_medical_logo"
+        />
+
+    <ImageView
+        android:id="@+id/logo8"
+        android:layout_width="143dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/logo7"
+        app:layout_constraintTop_toTopOf="@+id/logo7"
+        app:srcCompat="@drawable/medical_information_text" />
+
+    <ImageView
+        android:id="@+id/econtacts"
+        android:layout_width="195dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo7"
+        app:srcCompat="@drawable/econtacts" />
+
+    <EditText
+        android:id="@+id/econtactName"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Contact 1 Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/econtacts"
+        app:layout_constraintTop_toBottomOf="@+id/econtacts" />
+
+    <EditText
+        android:id="@+id/econtactPhone"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/econtactName"
+        app:layout_constraintTop_toBottomOf="@+id/econtactName" />
+
+    <EditText
+        android:id="@+id/relationship"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Relationship"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/econtactName"
+        app:layout_constraintTop_toBottomOf="@+id/econtactName" />
+
+    <EditText
+        android:id="@+id/econtactEmail"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/econtactPhone"
+        app:layout_constraintTop_toBottomOf="@+id/econtactPhone" />
+
+    <EditText
+        android:id="@+id/econtactName2"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Contact 2 Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/econtactEmail"
+        app:layout_constraintTop_toBottomOf="@+id/econtactEmail" />
+
+    <EditText
+        android:id="@+id/econtactPhone2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/econtactName2"
+        app:layout_constraintTop_toBottomOf="@+id/econtactName2" />
+
+    <EditText
+        android:id="@+id/relationship2"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Relationship"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/econtactName2"
+        app:layout_constraintTop_toBottomOf="@+id/econtactName2" />
+
+    <EditText
+        android:id="@+id/econtactEmail2"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/econtactPhone2"
+        app:layout_constraintTop_toBottomOf="@+id/econtactPhone2" />
+
+    <Button
+        android:id="@+id/backButton2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="48dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/nextButton3"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="48dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
